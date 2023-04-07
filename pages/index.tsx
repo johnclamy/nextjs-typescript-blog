@@ -1,7 +1,9 @@
-import MainLayout from "./components/layout/MainLayout";
-
 export default function HomePage() {
-  return <>this is the home page...</>;
+  return (
+    <div className="container">
+      <div className="row">
+        <div className="col">This is the home page my blog...</div>
+      </div>
+    </div>
+  );
 }
-
-HomePage.layout = MainLayout;
