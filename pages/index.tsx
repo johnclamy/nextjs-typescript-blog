@@ -1,8 +1,15 @@
+import Head from "next/head";
+import Layout from "./components/Layout";
+
 export default function HomePage() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col">This is the home page my blog...</div>
+        <div className="col">
+          <Layout>
+            <h1>here is where my content goes...</h1>
+          </Layout>
+        </div>
       </div>
     </div>
   );
