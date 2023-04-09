@@ -3,7 +3,7 @@ import Avatar from "./Avatar";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-xl navbar-light bg-light">
+    <nav className="navbar navbar-expand-xl navbar-light bg-light mb-3">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <Image src="/images/logo.png" alt="logo" width="30" height="27" />
